@@ -38,14 +38,12 @@
 // b=c;//b=10
 // console.log(a,b);
 
-
 // method2
 
 // let a=10;
 // let b=20;
 // [a,b]=[b,a];
 // console.log(a,b);
-
 
 // method3
 
@@ -64,7 +62,9 @@
 // console.log(a+b);
 // console.log(a-b);
 // console.log(a*b);
-// console.log(Math.floor(a/b));
-// console.log(a%b);
-
-
+// let a=12;
+// let b=22;
+// console.log(Math.floor(a/b));  //jidhar bhi devide kre yeh use kre Math.floor() jab division ho
+// let a = 7;
+// let b = 2;
+// console.log(b % a);
