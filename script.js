@@ -56,3 +56,15 @@
 // b=a-b; //30-20=10
 // a=a-b; //30-10=20
 // console.log(a,b);
+
+// Operators and their questions.
+// 1. Arithemetic - +,-,*,/,%,
+// let a=12;
+// let b=22;
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(Math.floor(a/b));
+// console.log(a%b);
+
+
