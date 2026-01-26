@@ -56,7 +56,7 @@
 // console.log(a,b);
 
 // Operators and their questions.
-// 1. Arithemetic - +,-,*,/,%,
+// 1. Arithemetic : +,-,*,/,%,
 // let a=12;
 // let b=22;
 // console.log(a+b);
@@ -68,3 +68,42 @@
 // let a = 7;
 // let b = 2;
 // console.log(b % a);
+
+// let a=4568;
+//Agar last se digit hatani ho ek ek karke like 456....
+// console.log(a%10);
+// console.log(Math.floor(a/10));
+
+//2. Relational : < > >= <= !== = == ===
+
+//1. Guess the output:
+// let a=5;
+// a+= 3*2;
+// console.log(a);
+
+//2.find the value of x
+
+// let x = 50;
+// x /= 5 - 2;
+// console.log(x);
+
+//3.find the final value of y
+// let y = 7;
+// y += 2;
+// y *= 3;
+// y -= 4;
+// y %= 5;
+// console.log(y);
+
+
+//4. What is the value of x after executing x += 2 * 3; if x was initially 4?
+
+// let x=4;
+// x += 2 * 3;
+// console.log(x);
+
+
+//5. If y = 45, what is the value of y /= 4?
+let y = 45;
+y /= 4
+console.log(y);
