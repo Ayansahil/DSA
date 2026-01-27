@@ -95,15 +95,46 @@
 // y %= 5;
 // console.log(y);
 
-
 //4. What is the value of x after executing x += 2 * 3; if x was initially 4?
 
 // let x=4;
 // x += 2 * 3;
 // console.log(x);
 
-
 //5. If y = 45, what is the value of y /= 4?
-let y = 45;
-y /= 4
-console.log(y);
+// let y = 45;
+// y /= 4
+// console.log(y);
+
+//Math function :-
+
+// console.log(Math.abs(-10));
+// console.log(Math.ceil(10.1));
+// console.log(Math.floor(10.9));
+// console.log(Math.round(10.5));
+// console.log(Math.trunc(10.43755356));
+// console.log(Math.pow(2,3));
+// console.log(Math.max(1,2,3,4,5));
+// console.log(Math.min(1,2,3,4,5));
+// console.log(Math.random(5));
+
+// Q1. Calculate Compound Interested
+
+// let prompt = require("prompt-sync")()
+
+// let p = prompt("Enter principal amount");
+// let r = prompt("Enter rate of interest ");
+// let t = prompt("Enter time");
+
+// // let A=p* (1+ r / n) ** (t)-p;
+// // let CI=A-p
+// console.log(p * Math.pow(1 + r / 100, t) - p).toFixed(2);
+
+
+
+// Q2. Generate otp 4 digits
+// console.log(Math.trunc(Math.random()*9000));
+
+
+// Q3.Calculate Area of triangle by herons formula
+
