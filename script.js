@@ -138,3 +138,23 @@
 
 // Q3.Calculate Area of triangle by herons formula
 
+// console.log(Math.min(2,0,-3,5,-7));
+// console.log(Math.max(-10,-5));
+// console.log(Math.random());
+// console.log(Math.ceil(10.1));
+// console.log(Math.trunc(4.9));
+
+
+
+
+// let a = 5, b = 10;
+// let result = (a > b) ? a + b : a - b;
+// console.log(result);
+
+
+// let x = 0;
+// if (x) {
+//     console.log("Truthy");
+// } else {
+//     console.log("Falsy");
+// }
