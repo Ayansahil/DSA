@@ -130,11 +130,8 @@
 // // let CI=A-p
 // console.log(p * Math.pow(1 + r / 100, t) - p).toFixed(2);
 
-
-
 // Q2. Generate otp 4 digits
 // console.log(Math.trunc(Math.random()*9000));
-
 
 // Q3.Calculate Area of triangle by herons formula
 
@@ -144,14 +141,11 @@
 // console.log(Math.ceil(10.1));
 // console.log(Math.trunc(4.9));
 
-
 //5Feb 2026
-
 
 // let a = 5, b = 10;
 // let result = (a > b) ? a + b : a - b;
 // console.log(result);
-
 
 // let x = 0;
 // if (x) {
@@ -159,3 +153,51 @@
 // } else {
 //     console.log("Falsy");
 // }
+
+
+
+
+
+
+
+
+
+//Truly job test question:-
+
+// var languages = ["Java", "php", "TypeScript"];
+// languages.length = 0;
+
+// languages.push("Golang");
+// console.log(languages);
+
+// let indexi: number = 1;
+// function turingTest() {
+//     let index2: number = 2;
+//     if (index2 > index1) {
+//         let index3: number = 3;
+//          index3++;
+//     }
+//      while (index < index2)
+//         { let indexd: number = 4;
+//             index1++; }
+//      console. log (index1) ;
+//      console. log (index2) ;
+//      console. log (index3) ;
+//      console. log (indexd) ;
+//     }
+//     turingTest();
+
+// var t=99;
+// t="turning";
+// console.log(t);
+
+// function Foo() {
+//   this.bar = 10;
+// }
+// Foo.prototype.bar = 42;
+
+// var foo = new Foo();
+// console.log("1:", foo.bar);
+
+// delete foo.bar;
+// console.log("2:", foo.bar);
