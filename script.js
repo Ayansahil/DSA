@@ -154,15 +154,7 @@
 //     console.log("Falsy");
 // }
 
-
-
-
-
-
-
-
-
-//Truly job test question:-
+//Turing job test question:-
 
 // var languages = ["Java", "php", "TypeScript"];
 // languages.length = 0;
@@ -201,3 +193,68 @@
 
 // delete foo.bar;
 // console.log("2:", foo.bar);
+
+// 22 Feb 2026
+
+//1. * Recursively prints natural numbers from 1 to n, separated by a space.
+//  let n=5
+// let result = "";
+//    for (let i = 1; i <= n; i++) {
+//       result += i + " ";
+//    }
+//    console.log(result)
+
+//2. * Recursively prints natural numbers from n to 1, separated by a space.
+//  let n=5
+//    let result = "";
+//    for (i = n; i >= 1; i--) {
+//       result += i + " "
+//    }
+//    console.log(result)
+
+//3. * Recursive function to calculate sum up to N
+
+// let n = 5;
+// let sum = 0;
+// for (i = 1; i <= n; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+
+//4. * Recursive function to calculate factorial of a number
+
+// let n = 5;
+// let ans = 1;
+// for (i = 1; i <= n; i++) {
+//   ans *= i;
+// }
+// console.log(ans);
+
+//5. Print all factors of a Number
+// let n = 6;
+// for (i = 1; i <= n; i++) {
+//   if (n % i === 0) {
+//     process.stdout.write(i + " ");
+//   }
+// }
+
+
+// let x = 50;
+// if (x <= 50) {
+//     if (x == 50) {
+//         console.log("x is 50");
+//     } else {
+//         console.log("x is less than 50");
+//     }
+// } else {
+//     console.log("x is greater than 50");
+// }
+// Ans x is 50
+
+
+
+let count = 0;
+for (let i = 2; i <= 20; i += 3) {
+    count++;
+}
+console.log(count);
